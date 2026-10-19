@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bader | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <nav class="nav-links">
+        <button class="tab-btn active" data-target="about">About</button>
+        <button class="tab-btn" data-target="projects">Projects</button>
+        <button class="tab-btn" data-target="contact">Contact</button>
+    </nav>
+    <button id="theme-toggle" class="theme-btn">🌙 Dark</button>
+</header>
+
+<main class="page-container">
+    <!-- About Section -->
+    <section id="about" class="tab-page active-tab">
+        <h1>Hi, Welcome to Bader Portfolio</h1>
+        <p class="tagline">Aspiring Cloud Architect &amp; Software Developer</p>
+        <p class="bio">
+            I am an undergraduate Software Engineering student at KFUPM passionate about
+            Cloud Computing (AWS) and building modern, interactive applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="tab-page">
+        <h1>Projects</h1>
+        <!-- search bar input -->
+        <input
+                type="search"
+                id="project-search"
+                class="search-input"
+                placeholder="Search Projects..."
+        >
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/snsCloud.png" alt="AWS SNS Cloud Project">
+                <h3>AWS Cloud Notification System</h3>
+                <p>Serverless notification service built using AWS Lambda and Amazon SNS.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/starGame.png" alt="Star Game Project">
+                <h3>Star Game</h3>
+                <p>Interactive 2D game built with core software engineering principles.</p>
+            </div>
+        </div>
+        <p id="empty-state" class="empty-msg hidden">
+            No projects found matching your search. Try another word!
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="tab-page">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <input type="text" id="user-name" placeholder="Your Name">
+            <input type="email" id="user-email" placeholder="Your Email">
+            <textarea id="user-message" rows="4" placeholder="Your Message"></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <p id="form-feedback"></p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Bader. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
