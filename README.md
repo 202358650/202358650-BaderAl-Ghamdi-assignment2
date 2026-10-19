@@ -1,6 +1,6 @@
 # Bader | Interactive Developer Portfolio (Assignment 2)
 
-**Live demo:** https://202358650.github.io/202358650-BaderAl-Ghamdi-assignment2/
+**Live demo:** [https://202358650.github.io/202358650-BaderAl-Ghamdi-assignment2/](https://202358650.github.io/202358650-BaderAl-Ghamdi-assignment2/)
 
 ![Portfolio screenshot](assets/images/screenshot.png)
 
