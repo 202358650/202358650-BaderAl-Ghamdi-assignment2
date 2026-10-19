@@ -102,7 +102,7 @@ Tested on:
 
 ## 🤖 AI Usage Summary
 
-I used AI tools as a learning and review assistant during this assignment. [Tool 1, e.g. Claude] was used to plan the assignment tasks, review my JavaScript logic for the tabs and search features, and suggest CSS fixes for mobile layout. [Tool 2, if any] was used for [purpose]. I wrote or edited all the code myself and tested every feature in the browser.
+I used AI tools as a learning and review assistant during this assignment. Claude was used to plan the assignment tasks, review my JavaScript logic for the tabs and search features, and suggest CSS fixes for mobile layout. I wrote or edited all the code myself and tested every feature in the browser.
 
 Full details, including the usage log and declaration, are in [`docs/ai-usage-report.md`](docs/ai-usage-report.md).
 
@@ -117,7 +117,7 @@ Full details, including the usage log and declaration, are in [`docs/ai-usage-re
 
 ## 👤 Author
 
-**Bader [Last Name]**
+**Bader Alghamdi**
 Student ID: 202358650
 Software Engineering, KFUPM
-Course: [Course code and name]
+Course: SWE363
