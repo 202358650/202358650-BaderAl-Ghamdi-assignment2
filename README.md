@@ -1,10 +1,8 @@
 # Bader | Interactive Developer Portfolio (Assignment 2)
 
-**Live demo:** [https://202358650.github.io/REPO-NAME/](https://202358650.github.io/REPO-NAME/)
-<!-- TODO: deploy with GitHub Pages (Settings → Pages → Branch: main, folder: / root) and replace REPO-NAME -->
+**Live demo:** https://202358650.github.io/202358650-BaderAl-Ghamdi-assignment2/
 
 ![Portfolio screenshot](assets/images/screenshot.png)
-<!-- TODO: take a screenshot of the site and save it as assets/images/screenshot.png -->
 
 ---
 
@@ -19,9 +17,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 1. **Tab Navigation:** Switches between the **About**, **Projects**, and **Contact** sections without reloading the page, with a fade-in transition.
 2. **Live Project Search:** Filters project cards by title and description as the user types. Shows an empty-state message when nothing matches.
 3. **Persistent Dark/Light Mode:** Toggles the theme and saves the choice in `localStorage`, so it is restored on the next visit.
-   <!-- TODO: only keep "saves in localStorage" if it really does. Test: switch to dark, reload, it should stay dark -->
 4. **Contact Form Validation:** Checks for empty fields and a valid email format, then shows an error or a confirmation message.
-   <!-- TODO: only list "valid email format" if you added that check -->
 
 ---
 
@@ -74,11 +70,11 @@ assignment-2/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/202358650/REPO-NAME.git
+   git clone https://github.com/202358650/202358650-BaderAl-Ghamdi-assignment2.git
    ```
 2. Go into the project folder:
    ```bash
-   cd REPO-NAME
+   cd 202358650-BaderAl-Ghamdi-assignment2
    ```
 3. Run the site using **one** of these options:
     - **Option A:** Double-click `index.html` to open it in your browser.
@@ -95,8 +91,6 @@ Tested on:
 | Chrome (macOS) | ✅ Works |
 | Safari (macOS) | ✅ Works |
 | Firefox (macOS) | ✅ Works |
-| Mobile view (Chrome DevTools, 375px) | ✅ Works |
-<!-- TODO: only list browsers you actually tested -->
 
 ---
 
