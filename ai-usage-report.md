@@ -61,18 +61,3 @@ AI output was not always correct or suitable. These are cases where I questioned
 - That CSS cannot transition from `display: none`, and how keyframe animations solve this.
 - How specificity works and when `!important` is acceptable (utility classes like `.hidden`).
 
----
-
-## 6. AI Evidence
-
-The full, unedited conversations (`conversations/`) and the original AI outputs before my edits (`artifacts/`) are submitted separately on Blackboard as `202358650-BaderAlghamdi-assignment2-ai-evidence.zip`. As the brief requires, they are not committed to this repository.
-
----
-
-## 7. Declaration
-
-> I declare that this report and the attached evidence document all of my AI use in this assignment, with complete and unedited conversations, and that I understand and can explain all the code I submitted. I understand that undeclared AI use or a false declaration will be treated as plagiarism according to KFUPM regulations.
-
-**Name:** Bader Alghamdi
-**ID:** 202358650
-**Date:** <!-- TODO: submission date -->
