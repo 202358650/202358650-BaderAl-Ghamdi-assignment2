@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Description
+## Project Description
 
 This repository contains Assignment 2 of my personal developer portfolio website. It builds on the initial version from Assignment 1 and adds JavaScript interactivity: tab navigation between sections, live project search, a saved light/dark theme preference, and contact form validation with clear user feedback.
 
@@ -32,7 +32,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ---
 
-##  Technologies
+## Technologies
 
 - HTML
 - CSS (Flexbox, transitions, keyframe animations)
@@ -40,7 +40,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 assignment-2/
@@ -63,7 +63,7 @@ assignment-2/
 
 ---
 
-## 🚀 Setup Instructions (Run Locally)
+## Setup Instructions (Run Locally)
 
 **Requirements:** a modern web browser (Chrome, Firefox, Safari, or Edge). No installation or build step is needed.
 
@@ -81,7 +81,7 @@ assignment-2/
 
 ---
 
-## 🌐 Browser Compatibility
+## Browser Compatibility
 
 Tested on:
 
@@ -94,7 +94,7 @@ Tested on:
 The layout is designed for desktop and tablet widths.
 ---
 
-## 🤖 AI Usage Summary
+##  AI Usage Summary
 
 I used AI tools as a learning and review assistant during this assignment. Claude was used to plan the assignment tasks, review my JavaScript logic for the tabs and search features, review my CSS, and draft documentation templates. I wrote all the code myself and tested every feature in the browser.
 
@@ -102,7 +102,7 @@ Full details, including the usage log and declaration, are in [`docs/ai-usage-re
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 - [Technical Documentation](docs/technical-documentation.md): how each feature works internally
 - [AI Usage Report](docs/ai-usage-report.md): AI tools, usage log, and declaration
