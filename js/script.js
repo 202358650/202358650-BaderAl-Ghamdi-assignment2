@@ -51,7 +51,6 @@ themeBtn.addEventListener("click", () => {
     localStorage.setItem("theme", isDark ? "dark" : "light");
     themeBtn.textContent = isDark ? "☀️ Light" : "🌙 Dark";
 });
-
 // 4. CONTACT FORM VALIDATION
 const contactForm = document.getElementById("contact-form");
 const feedback = document.getElementById("form-feedback");
