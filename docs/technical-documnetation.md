@@ -102,7 +102,6 @@ Each tab button's `data-target` value matches the `id` of the section it opens. 
 3. The new theme (`"dark"` or `"light"`) is written to `localStorage`.
 4. The button text switches between the dark and light labels.
 
-<!-- TODO: check these steps against your real code: the key name you used in localStorage.setItem/getItem, and the exact button labels -->
 
 **CSS:** default (light) colors are set on `body`. Dark colors are set on `body.dark-mode` and on dark-mode rules for elements like `.project-card` and `.search-input`. Background and text colors use `transition` so the switch is smooth.
 
@@ -161,10 +160,8 @@ All effects are short (0.2–0.3s) so they don't distract or slow the page down.
 ## 6. Responsive Design
 
 - Flexbox with `flex-wrap` lets the project cards stack on narrow screens.
-- Cards use `width: 100%; max-width: 280px;` so they shrink on small phones instead of overflowing.
 - A `@media (max-width: 600px)` rule reduces the gap between the nav buttons and moves the theme button closer to the edge so they do not overlap.
 
-<!-- TODO: remove any of these bullets that are not in your final CSS -->
 
 ---
 
