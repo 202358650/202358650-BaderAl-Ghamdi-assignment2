@@ -12,8 +12,6 @@
 |------|-------|---------------|
 | Claude (claude.ai) | Claude Opus 5.5 | Planning the assignment, reviewing my JavaScript and CSS, explaining concepts, finding bugs, and drafting documentation templates |
 
-<!-- TODO: add a row for any other AI tool you used (Gemini, Copilot, ChatGPT, IDE autocomplete...). Every tool must be declared. -->
-
 ---
 
 ## 2. How AI Supported My Work
@@ -39,9 +37,6 @@ I used Claude mainly as a **reviewer and tutor, not a code generator**. For the 
 | A03 | Claude (Claude Opus 5.5) | 2026-10-19 | Technical documentation template | `docs/technical-documentation.md` | Checked each feature description against `script.js` and `styles.css`. <!-- TODO: say what you corrected, e.g. localStorage key name, email check method --> |
 | A04 | Claude (Claude Opus 5.5) | 2026-10-19 | AI usage report template | `docs/ai-usage-report.md` | Checked that every entry matches what actually happened, and added the declaration with my details. |
 
-<!-- TODO: if the `.hidden` CSS class or any other code came from another AI tool (or from Gemini in A1), add a row for it. -->
-<!-- TODO: add a row for every other AI conversation (C02, C03...). -->
-
 ---
 
 ## 4. Critical Evaluation of AI Output
@@ -63,18 +58,5 @@ AI output was not always correct or suitable. These are cases where I questioned
 - How specificity works and when `!important` is acceptable (utility classes like `.hidden`).
 - How to test responsive layouts at phone widths in DevTools.
 
----
-
-## 6. AI Evidence
-
-The full, unedited conversations (`conversations/`) and the original AI outputs before my edits (`artifacts/`) are submitted separately on Blackboard as `202358650-BaderAlghamdi-assignment2-ai-evidence.zip`. As the brief requires, they are not committed to this repository.
-
----
-
-## 7. Declaration
-
-> I declare that this report and the attached evidence document all of my AI use in this assignment, with complete and unedited conversations, and that I understand and can explain all the code I submitted. I understand that undeclared AI use or a false declaration will be treated as plagiarism according to KFUPM regulations.
-
-**Name:** Bader Alghamdi
+** Bader Alghamdi
 **ID:** 202358650
-**Date:** <!-- TODO: submission date -->
