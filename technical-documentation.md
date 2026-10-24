@@ -180,8 +180,6 @@ Everything uses standard, widely supported features (`classList`, `querySelector
 
 ---
 
-## 8. Known Limitations and Future Improvements
-
 - The contact form does not send messages anywhere. A future version could connect it to a backend or a form service.
 - Tabs do not update the URL hash, so refreshing always opens About and you can't link directly to a tab.
 - Tab buttons do not use ARIA roles (`role="tab"`, `aria-selected`) yet. Adding them would improve screen reader support.
