@@ -17,7 +17,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 1. **Tab Navigation:** Switches between the **About**, **Projects**, and **Contact** sections without reloading the page, with a fade-in transition.
 2. **Live Project Search:** Filters project cards by title and description as the user types. Shows an empty-state message when nothing matches.
 3. **Persistent Dark/Light Mode:** Toggles the theme and saves the choice in `localStorage`, so it is restored on the next visit.
-4. **Contact Form Validation:** Checks for empty fields and a valid email format, then shows an error or a confirmation message.
+4. **Contact Form Validation:** JavaScript checks that no field is empty, and the browser's built-in `type="email"` check blocks a badly formatted email. The user then sees an error or a confirmation message.
 
 ---
 
@@ -34,8 +34,8 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ## 🛠 Technologies
 
-- HTML5 (semantic markup)
-- CSS3 (Flexbox, transitions, keyframe animations, media queries)
+- HTML
+- CSS (Flexbox, transitions, keyframe animations)
 - Vanilla JavaScript (DOM manipulation, event listeners, `localStorage`)
 - No frameworks, libraries, or build tools
 
@@ -53,6 +53,7 @@ assignment-2/
 │   └── script.js
 ├── assets/
 │   └── images/
+│       ├── screenshot.png
 │       ├── snsCloud.png
 │       └── starGame.png
 ├── docs/
@@ -60,7 +61,6 @@ assignment-2/
 │   └── technical-documentation.md
 └── .gitignore
 ```
-<!-- TODO: update this tree if you add images or files -->
 
 ---
 
@@ -92,11 +92,12 @@ Tested on:
 | Safari (macOS) | ✅ Works |
 | Firefox (macOS) | ✅ Works |
 
+The layout is designed for desktop and tablet widths.
 ---
 
 ## 🤖 AI Usage Summary
 
-I used AI tools as a learning and review assistant during this assignment. Claude was used to plan the assignment tasks, review my JavaScript logic for the tabs and search features, and suggest CSS fixes for mobile layout. I wrote or edited all the code myself and tested every feature in the browser.
+I used AI tools as a learning and review assistant during this assignment. Claude was used to plan the assignment tasks, review my JavaScript logic for the tabs and search features, review my CSS, and draft documentation templates. I wrote all the code myself and tested every feature in the browser.
 
 Full details, including the usage log and declaration, are in [`docs/ai-usage-report.md`](docs/ai-usage-report.md).
 
