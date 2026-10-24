@@ -59,9 +59,7 @@ AI output was not always correct or suitable. These are cases where I questioned
 - How to show and hide sections with classes and `querySelectorAll` instead of separate pages.
 - Why the `input` event is the right event for live search, and how `classList.toggle(name, condition)` works.
 - That CSS cannot transition from `display: none`, and how keyframe animations solve this.
-- That `type="email"` validation is skipped when a submit is handled by JavaScript with `preventDefault()`.
 - How specificity works and when `!important` is acceptable (utility classes like `.hidden`).
-- How to test responsive layouts at phone widths in DevTools.
 
 ---
 
