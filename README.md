@@ -12,7 +12,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ---
 
-## ✨ Features
+##  Features
 
 1. **Tab Navigation:** Switches between the **About**, **Projects**, and **Contact** sections without reloading the page, with a fade-in transition.
 2. **Live Project Search:** Filters project cards by title and description as the user types. Shows an empty-state message when nothing matches.
@@ -21,7 +21,7 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ---
 
-## 🧭 How to Use
+## How to Use
 
 | Feature | How to use it |
 |---------|---------------|
@@ -32,12 +32,11 @@ This repository contains Assignment 2 of my personal developer portfolio website
 
 ---
 
-## 🛠 Technologies
+##  Technologies
 
 - HTML
 - CSS (Flexbox, transitions, keyframe animations)
 - Vanilla JavaScript (DOM manipulation, event listeners, `localStorage`)
-- No frameworks, libraries, or build tools
 
 ---
 
