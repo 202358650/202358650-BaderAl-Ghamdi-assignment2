@@ -22,7 +22,7 @@ I used Claude mainly as a **reviewer and tutor, not a code generator**. For the 
 - **Tab navigation:** I designed the idea (an `active` class plus `querySelectorAll`) and asked Claude to evaluate it before writing any code. It suggested "remove from all, then add to one" instead of an `if` statement, and warned me that `display: none` cannot be transitioned, so I used a keyframe animation. I wrote the JavaScript myself.
 - **Live search:** I asked only for hints. Claude gave guiding questions (which event to use, how to normalize text, how to count matches for the empty state). I wrote the search code myself, and Claude reviewed it and explained how `classList.toggle(class, force)` works.
 - **Contact form:** I wrote the validation myself. Claude pointed out that `type="email"` does not validate when `preventDefault()` is used, so invalid emails were being accepted.
-- **CSS:** Claude suggested a full stylesheet for the form, search bar, and feedback. I found it overcomplicated and wrote my own simpler CSS instead. Claude then reviewed my CSS and found two mobile bugs: fixed-width cards overflowing on small phones, and the theme button overlapping the tabs. I fixed both.
+- **CSS:** Claude suggested a full stylesheet for the form, search bar, and feedback. I found it overcomplicated and wrote my own simpler CSS instead. 
 - **Documentation:** Claude produced templates for `README.md`, this report, and `technical-documentation.md`. I filled in my details and checked every claim against my actual code.
 
 ---
