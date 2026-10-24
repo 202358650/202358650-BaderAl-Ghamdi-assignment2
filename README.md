@@ -113,5 +113,4 @@ Full details, including the usage log and declaration, are in [`docs/ai-usage-re
 
 **Bader Alghamdi**
 Student ID: 202358650
-Software Engineering, KFUPM
-Course: SWE363
+
