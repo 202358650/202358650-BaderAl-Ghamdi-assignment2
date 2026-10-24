@@ -104,8 +104,8 @@ Full details, including the usage log and declaration, are in [`docs/ai-usage-re
 
 ##  Documentation
 
-- [Technical Documentation]: how each feature works internally
-- [AI Usage Report]: AI tools, usage log, and declaration
+- Technical Documentation: how each feature works internally
+- AI Usage Report: AI tools, usage log, and declaration
 
 ---
 
